@@ -1,0 +1,89 @@
+html {
+    max-width: 1440px;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: #fff;
+}
+
+.container {
+    background: url('../images/bg-desktop.svg') var(--bg-color) no-repeat;
+    padding: 55px 70px 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .logo {
+    margin-bottom: 80px;
+}
+
+.container .logo img {
+    height: 53px;
+}
+
+.container .main {
+    display: flex;
+}
+
+.container .main-image {
+    margin: 0 10px;
+}
+
+.container .main-info {
+    padding: 42px 20px 0 54px;
+}
+
+.container .main h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    margin-bottom: 22px;
+}
+
+.container .main p {
+    font-size: 18px;
+    line-height: 29px;
+    margin-bottom: 40px;
+}
+
+.container .main a {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 19px;
+    padding: 15px 64px;
+    border-radius: 50px;
+    background-color: #fff;
+    color: var(--bg-color);
+    box-shadow: 10px 10px 30px rgba(0,0,0,0.2);
+}
+
+.container .main a:hover {
+    background-color: var(--hover-text-color);
+    color: #fff;
+}
+
+.container .social {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 20px 10px;
+    gap: 16px;
+}
+
+.container .social a {
+    display: flex;
+    justify-content: center;
+    font-size: 19px;
+    padding: 10px;
+    width: 40px;
+    border: 1.9px solid #fff;
+    border-radius: 50px;
+    color: #fff;
+}
+
+.container .social a:hover {
+    color: var(--hover-text-color);
+    border-color: var(--hover-text-color);
+}
