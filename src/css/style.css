@@ -1,18 +1,21 @@
-html {
-    max-width: 1440px;
-}
-
 body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     color: #fff;
+    background: url('../images/bg-desktop.svg') var(--bg-color) no-repeat;
+    background-size: cover;
 }
 
 .container {
-    background: url('../images/bg-desktop.svg') var(--bg-color) no-repeat;
+    max-width: 1440px;
     padding: 55px 70px 20px;
     justify-content: center;
     align-items: center;
+    width: 100%;
 }
 
 .container .logo {
@@ -56,7 +59,7 @@ body {
     border-radius: 50px;
     background-color: #fff;
     color: var(--bg-color);
-    box-shadow: 10px 10px 30px rgba(0,0,0,0.2);
+    box-shadow: 7px 7px 10px rgba(0,0,0,0.35);
 }
 
 .container .main a:hover {
@@ -64,7 +67,7 @@ body {
     color: #fff;
 }
 
-.container .social {
+.container .social ul{
     display: flex;
     justify-content: end;
     align-items: center;

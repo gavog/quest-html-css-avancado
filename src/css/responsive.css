@@ -1,7 +1,47 @@
-@media (max-width: 425px) {
+@media (max-width: 1024px) {
+
     .container {
-        height: 100%;
-        background-image: url(../images/bg-mobile.svg);
+        padding: 20px;
+    }
+
+    .container .logo img {
+        height: 40px;
+    }
+
+    .container .main-image {
+        width: 55%;
+        margin: 0;
+    }
+
+    .container .main-info {
+        padding: 10px 0 0 20px;
+    }
+
+    .container .main a {
+        font-size: 18px;
+        padding: 10px 40px;
+    }
+
+    .container .main h1 {
+        font-size: 28px;
+    }
+
+    .container .main p {
+        font-size: 17px;
+        margin-bottom: 30px;
+    }
+
+    .container .social ul {
+        padding-right: 30px;
+    }
+}
+
+@media (max-width: 425px) {
+    body {
+        background: url('../images/bg-mobile.svg') var(--bg-color) no-repeat;
+    }
+    
+    .container {
         padding: 40px 15px 0;
     }
 
@@ -16,7 +56,13 @@
     .container .main {
         flex-direction: column;
         text-align: center;
+        justify-content: center;
+        align-items: center;
         margin-bottom: 50px;
+    }
+
+    .container .main-image {
+        width: 300px;
     }
 
     .container .main-info {
@@ -36,10 +82,9 @@
         padding: 10px 64px;
     }
 
-    .container .social {
-        height: 110px;
+    .container .social ul {
         justify-content: center;
-        padding: 0 10px;
+        padding: 20px;
     }
 
     .container .social a {
